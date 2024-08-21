@@ -1,4 +1,4 @@
-#index.html has to be placed in a /templates folder - requirement for opencv
+#index.html has to be placed in a /templates folder - requirement for flask (for rendering ANY template)
 #
 #this program is easy an easy way to wrap your head around the basics of flask - processing and displaying anything other than webcam
 #footage, or footage you have direct access to, becomes a tad bit more difficult
