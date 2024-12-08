@@ -27,7 +27,8 @@ def video_feed():
 
 @app.route('/')
 def index():
-    """Video streaming home page."""
+    #bit of a doozy here, the above video streaming route is embedded in the index page for formatting simplicity sake. 
+    #You can just as easy use this route without needing a seperate endpoint for the processed footage.
     return render_template('index.html')
 
 
